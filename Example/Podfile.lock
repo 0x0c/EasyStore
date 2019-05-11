@@ -1,0 +1,29 @@
+PODS:
+  - EasyStore (0.1.0):
+    - RealmSwift (~> 3.14)
+  - Realm (3.15.0):
+    - Realm/Headers (= 3.15.0)
+  - Realm/Headers (3.15.0)
+  - RealmSwift (3.15.0):
+    - Realm (= 3.15.0)
+
+DEPENDENCIES:
+  - EasyStore (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Realm
+    - RealmSwift
+
+EXTERNAL SOURCES:
+  EasyStore:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EasyStore: 5ed08cc205b7ddb07069ec7d578d9316ee65acc0
+  Realm: 9b834e1be6062f544805252c812348872dc5d4ed
+  RealmSwift: 8a41886f8ab6efef9eb8df97de2f2bb911561a79
+
+PODFILE CHECKSUM: 1add58a22749bd8f0361e9ce56f4411568141454
+
+COCOAPODS: 1.5.3
