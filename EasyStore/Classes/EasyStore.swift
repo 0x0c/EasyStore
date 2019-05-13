@@ -15,6 +15,10 @@ open class EasyStore<T: Object> {
         case delete = "delete"
     }
     
+    public init() {
+        
+    }
+    
     open func notificationName() -> String {
         return "EasyStoreUpdateNotification"
     }
