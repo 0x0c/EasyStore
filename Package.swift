@@ -28,7 +28,7 @@ let package = Package(
             path: "EazyStore/Classes",
             dependencies: [
                 "Realm",
-                "RealmSwift",
+                "RealmSwift"
             ]
         )
     ]
